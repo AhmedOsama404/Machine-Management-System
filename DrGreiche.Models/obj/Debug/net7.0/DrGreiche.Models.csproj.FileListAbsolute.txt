@@ -1,0 +1,12 @@
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.Models\bin\Debug\net7.0\DrGreiche.Models.deps.json
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.Models\bin\Debug\net7.0\DrGreiche.Models.dll
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.Models\bin\Debug\net7.0\DrGreiche.Models.pdb
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.Models\obj\Debug\net7.0\DrGreiche.Models.csproj.AssemblyReference.cache
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.Models\obj\Debug\net7.0\DrGreiche.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.Models\obj\Debug\net7.0\DrGreiche.Models.AssemblyInfoInputs.cache
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.Models\obj\Debug\net7.0\DrGreiche.Models.AssemblyInfo.cs
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.Models\obj\Debug\net7.0\DrGreiche.Models.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.Models\obj\Debug\net7.0\DrGreiche.Models.dll
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.Models\obj\Debug\net7.0\refint\DrGreiche.Models.dll
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.Models\obj\Debug\net7.0\DrGreiche.Models.pdb
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.Models\obj\Debug\net7.0\ref\DrGreiche.Models.dll

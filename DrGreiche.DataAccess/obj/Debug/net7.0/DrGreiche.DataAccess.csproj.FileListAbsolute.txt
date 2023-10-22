@@ -1,0 +1,17 @@
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\bin\Debug\net7.0\DrGreiche.DataAccess.deps.json
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\bin\Debug\net7.0\DrGreiche.DataAccess.runtimeconfig.json
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\bin\Debug\net7.0\DrGreiche.DataAccess.dll
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\bin\Debug\net7.0\DrGreiche.DataAccess.pdb
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\bin\Debug\net7.0\DrGreiche.Models.dll
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\bin\Debug\net7.0\DrGreiche.Models.pdb
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\obj\Debug\net7.0\DrGreiche.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\obj\Debug\net7.0\DrGreiche.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\obj\Debug\net7.0\DrGreiche.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\obj\Debug\net7.0\DrGreiche.DataAccess.AssemblyInfo.cs
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\obj\Debug\net7.0\DrGreiche.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\obj\Debug\net7.0\DrGreiche.DataAccess.csproj.CopyComplete
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\obj\Debug\net7.0\DrGreiche.DataAccess.dll
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\obj\Debug\net7.0\refint\DrGreiche.DataAccess.dll
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\obj\Debug\net7.0\DrGreiche.DataAccess.pdb
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\obj\Debug\net7.0\DrGreiche.DataAccess.genruntimeconfig.cache
+C:\Users\Ahmed Osama\Desktop\DrGreiche\DrGreiche.DataAccess\obj\Debug\net7.0\ref\DrGreiche.DataAccess.dll

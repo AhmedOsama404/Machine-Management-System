@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Machine>
+
+
+<div class="card shadow border-0 mb-5">
+    <div class="card-header bg-secondary ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Machine List</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row py-2">
+            <div class="col-6">
+            </div>
+            <div class="col-md-6 text-end">
+                <a asp-controller="Machine" asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-square-fill pe me-2 mb-2"></i> Create New Machine</a>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped table-hover text-center">
+                <thead>
+                    <tr>
+                        <th>Machine Code</th>
+                        <th>Machine Name</th>
+                        <th>Location</th>
+                        <th>Working Hours</th>
+                        <th>Last Maintenance Date</th>
+                        <th>Next Maintenance Date</th>
+                           <th>Actions</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var machine in Model@*.OrderBy(m => m.ID)*@)
+                    {
+                        <tr>
+                            <td>@machine.MachineCode</td>
+                            <td>@machine.MachineName</td>
+                            <td>
+                                @foreach (var machineLocation in machine.MachineLocations)
+                                {
+                                    @machineLocation.Location.LocationName
+
+                                    <br />
+                                }
+                            </td>
+                            <td>
+                                @foreach (var machineLocation in machine.MachineLocations)
+                                {
+                                    @machineLocation.WorkingHours
+
+                                    <br />
+                                }
+                            </td>
+                            <td>
+                                @foreach (var machineLocation in machine.MachineLocations)
+                                {
+                                    @machineLocation.LastMaintenanceDate.Date.ToString("yyyy-MM-dd")
+
+                                    <br />
+                                }
+                            </td>
+                            <td>
+                                @foreach (var machineLocation in machine.MachineLocations)
+                                {
+                                    @machineLocation.NextMaintenanceDate.Date.ToString("yyyy-MM-dd")
+
+                                    <br />
+                                }
+                            </td>
+
+
+                            <td style="text-align: center; vertical-align: middle;">
+                                <div class="btn-group" role="group">
+                                    <a asp-controller="Machine" asp-action="Edit" asp-route-id="@machine.ID" class="btn btn-primary me-2"><i class="bi bi-pencil-square"></i> Edit</a>
+                                    <a asp-controller="Machine" asp-action="Delete" asp-route-id="@machine.ID" class="btn btn-danger"><i class="bi bi-trash3"></i> Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+          
+        </div>
+        <div class="row py-2">
+            <div class="col-6">
+            </div>
+            <div class="col-md-6 text-end">
+                <a asp-controller="Machine" asp-action="UpcomingMaintenanceReport" class="btn btn-primary"><i class="bi bi-card-list me-2"></i> Upcoming Maintenance Report</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
