@@ -161,11 +161,7 @@ namespace DrGreicheWeb.Controllers
             {
                 ModelState.AddModelError("LastMaintenanceDate", "Invalid Date");
             }
-            if (_unitOfWork.Machine.GetAll().Any(m => m.MachineCode == machineViewModel.MachineCode))
-            {
-                // Machine code is not unique; show an error message
-                ModelState.AddModelError("MachineCode", "Machine Code already exists.");
-            }
+          
             if (ModelState.IsValid)
             {
               
